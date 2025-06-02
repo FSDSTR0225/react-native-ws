@@ -174,7 +174,6 @@ Iniciar el proyecto:
 
 ```bash
 cd MiPrimeraApp
-npm install
 npm start
 ```
 
