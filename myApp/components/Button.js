@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
-export const Button = ({ onPress, title, color }) => {
+export const Button = ({ onPress, title, color = "green" }) => {
   return (
     <TouchableOpacity
       style={{ ...styles.wrapper, backgroundColor: color }}
